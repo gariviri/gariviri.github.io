@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Virág Garamszegi — Fotóportfólió</title>
+  <meta name="description" content="Virág Garamszegi fotós portfóliója — válogatott galéria és elérhetőség.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <h1>Virág Garamszegi</h1>
+      <p class="tagline">Fotós • Válogatott galéria</p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section id="gallery" class="gallery"></section>
+
+    <section id="about" class="about">
+      <h2>Rólam</h2>
+      <p>Itt egy rövid bemutatkozás: stílusod, specializációd, és mit keresnek nálad a megrendelők.</p>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Kapcsolat</h2>
+      <p>Email: <a href="mailto:virag.garamszegi@gmail.com">virag.garamszegi@gmail.com</a></p>
+      <p>Vagy használj egy külső űrlapszolgáltatást (Formspree) a kapcsolatfelvételhez.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">© <span id="year"></span> Virág Garamszegi</div>
+  </footer>
+
+  <script src="gallery.js"></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
+Add index.html
